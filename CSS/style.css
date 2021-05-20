@@ -1,0 +1,159 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	background-color: lightgrey;
+	font-family: 'Ebrima', sans-serif;
+}
+
+/* Menú centrado */
+
+.navbar {
+    list-style-type: none;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /*background-color: black;*/
+    height: 80px;
+    font-family: 'Ebrima', serif;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-align: center;
+    z-index: 1;
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar li {
+   display: inline-block;
+   /*margin-top: 1px;*/
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    padding: 30px;
+    /*line-height: 10px;*/
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    /*background-color: orange;*/
+    height: 10px;
+}
+
+
+/* termina menú*/
+
+/* portada */
+
+#portada {
+	width: 100%;
+	height: 950px;
+	overflow: hidden;
+	background-color: white;
+}
+
+#portada img{
+	width: 65%;
+	height: auto;
+	margin-left: 18%;
+}
+
+#seccion2 {
+	width: 100%;
+	height: 450px;
+	overflow: hidden;
+	background-color: #F5F5F5;
+}
+
+.rectangulotext {
+	width: 75%;
+	height: 350px;
+	margin-left: 13%;
+	margin-top: 5%;
+	border-radius: 0px;
+	/*border-color: black;*/
+	background-color: white;
+}
+
+.explicacion {
+	text-align: center;
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+	font-size: 1.5rem;
+}
+
+#seccion3 {
+	width: 100%;
+	height: 3700px;
+	overflow: hidden;
+	background-color: #000000;
+}
+
+.cajamateriales {
+	width: 85%;
+	height: 350px;
+	margin-left: 8%;
+	margin-top: 5%;
+	border-radius: 0px;
+	float: left;
+	overflow: hidden;
+	background-color: white;
+}
+
+.imagenmaterial {
+	width: 25%;
+	height: 300px;
+	overflow: hidden;
+	margin-top: 1.5%;
+	margin-left: 1.5%;
+	border-radius: 25px;
+	background-color: white;
+}
+
+.imagenmaterial img{
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+}
+
+.cajatexto {
+	width:  65%;
+	height: 300px;
+	position: relative;
+	bottom: 85%;
+	left: 30%;
+	background-color: rgb(205, 205, 209);
+}
+
+.cajatexto p{
+	text-align: center;
+	padding-top: 7%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+
+
+
+#seccion5 {
+	width: 100%;
+	height: 150px;
+	background-color: rgb(228, 228, 55);
+}
+
+#seccion5 p{
+	padding-top: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
